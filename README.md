@@ -7,6 +7,8 @@ Link do curso [Python Pro](https://www.python.pro.br/)
 
 Link do curso [Python Pro](https://www.python.pro.br/)
 
+Link do curso [Python Pro](https://www.python.pro.br/)
+
 Tópicos a serem abordados:
 1. Git
 2. Virtualenv

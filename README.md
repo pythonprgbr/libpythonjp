@@ -9,8 +9,6 @@ Link do curso [Python Pro](https://www.python.pro.br/)
 
 Suportada versão 3 de Python
 
-Suportada versão 3 de Python
-
 Para instalar:
 '''console
 python3 -m venv .venv

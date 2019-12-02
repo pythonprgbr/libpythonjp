@@ -16,7 +16,7 @@ Para instalar:
 ```console
 python3 -m venv .venv
 source venv/bin/activate
-pip install -r requirements-dev.txt
+pip install -q -r requirements-dev.txt
 ```
 
 Para conferir qualidade de código:

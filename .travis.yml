@@ -6,6 +6,6 @@ install:
   - pipenv sync --dev
 script:
   - flake8
-  - pytest libpythonjp --cov=libpythonjp
+  - pytest libpythonjp --cov = libpythonjp
 after_success:
   - codecov

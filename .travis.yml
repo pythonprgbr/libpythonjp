@@ -8,4 +8,4 @@ script:
   - flake8
   - pytest libpythonjp --cov = libpythonjp
 after_success:
-  - codecov
+  - codecov -t 299641c7-c3d9-49f0-8e32-c827c0c4d892

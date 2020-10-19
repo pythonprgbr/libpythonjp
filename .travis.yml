@@ -2,11 +2,12 @@ language: python
 python:
   - 3.6
 install:
-  - pip install -q pipenv
-  - pip install --user codecov
+  - pip install -q pipenv codecov
   - pipenv sync --dev
 script:
   - flake8
   - pytest libpythonjp --cov = libpythonjp
+env:
+  - CODECOV_TOKEN: 299641c7-c3d9-49f0-8e32-c827c0c4d892
 after_success:
-  - codecov -t 299641c7-c3d9-49f0-8e32-c827c0c4d892
+  - codecov

@@ -24,7 +24,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8 pytest
-        if [ -f requirements-dev.txt ]; then pip install -r requirements-dev.txt; fi
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
@@ -34,8 +34,7 @@ jobs:
     - name: Test with pytest
       run: |
         pytest  --cov
-    - name: Posting Coverage
-      env:
-        CODECOV_TOKEN: "456f2bf2-ac0d-42de-ab61-3d69a617ce0b"
-      run: |
-        pytest  --cov=libpythonjp
+   - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v1
+      with:
+        token: 456f2bf2-ac0d-42de-ab61-3d69a617ce0b

@@ -8,6 +8,6 @@ script:
   - flake8
   - pytest libpythonjp --cov = libpythonjp
 env:
-  - CODECOV_TOKEN = 456f2bf2-ac0d-42de-ab61-3d69a617ce0b
+  - CODECOV_TOKEN = 299641c7-c3d9-49f0-8e32-c827c0c4d892
 after_success:
   - codecov

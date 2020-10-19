@@ -6,8 +6,8 @@ install:
   - pipenv sync --dev
 script:
   - flake8
-  - pytest libpythonjp --cov = libpythonjp
+  - pytest libpythonjp --cov=libpythonjp
 env:
-  - CODECOV_TOKEN: 299641c7-c3d9-49f0-8e32-c827c0c4d892
+  - CODECOV_TOKEN = 299641c7-c3d9-49f0-8e32-c827c0c4d892
 after_success:
   - codecov

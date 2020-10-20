@@ -9,6 +9,7 @@ script:
   - py.test  --cov=libpythonjp/tests
 
 after_success:
-  - CODECOV_TOKEN=299641c7-c3d9-49f0-8e32-c827c0c4d892
-  - CODECOV_TOKEN=456f2bf2-ac0d-42de-ab61-3d69a617ce0b
+  - codecov
+  - codecov -t 299641c7-c3d9-49f0-8e32-c827c0c4d892
+  - codecov -t 456f2bf2-ac0d-42de-ab61-3d69a617ce0b
 

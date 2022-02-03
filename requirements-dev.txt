@@ -1,6 +1,6 @@
 attrs==20.2.0
 coverage==5.3
-entrypoints==0.3
+entrypoints==0.4
 flake8==3.8.4
 importlib-metadata==2.0.0
 iniconfig==1.1.1

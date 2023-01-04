@@ -4,7 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-coverage = "*"
+coverage = "==7.0.3"
 flake8 = "*"
 pytest = "*"
 pytest-cov = "*"
@@ -14,7 +14,7 @@ pytest-mock = "*"
 attrs = "==22.1.0"
 certifi = "==2020.6.20"
 chardet = "==3.0.4"
-coverage = "==5.3"
+coverage = "==7.0.3"
 entrypoints = "==0.3"
 flake8 = "==3.8.4"
 idna = "==2.10"

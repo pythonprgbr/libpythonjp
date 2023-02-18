@@ -18,5 +18,5 @@ pytest-mock==3.3.1
 six==1.15.0
 toml==0.10.1
 wcwidth==0.2.5
-zipp==3.3.1
+zipp==3.14.0
 -r requirements.txt

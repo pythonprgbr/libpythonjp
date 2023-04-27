@@ -33,7 +33,7 @@ pytest-mock = "==3.3.1"
 requests = "==2.24.0"
 six = "==1.15.0"
 toml = "==0.10.1"
-urllib3 = "==1.25.11"
+urllib3 = "==2.0.0"
 wcwidth = "==0.2.5"
 zipp = "==3.3.1"
 

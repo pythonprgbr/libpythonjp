@@ -7,7 +7,7 @@ verify_ssl = true
 coverage = "*"
 flake8 = "*"
 pytest = "*"
-pytest-cov = "*"
+pytest-cov = "==4.1.0"
 pytest-mock = "*"
 
 [packages]
@@ -28,7 +28,7 @@ pycodestyle = "==2.6.0"
 pyflakes = "==2.2.0"
 pyparsing = "==2.4.7"
 pytest = "==6.1.1"
-pytest-cov = "==2.10.1"
+pytest-cov = "==4.1.0"
 pytest-mock = "==3.3.1"
 requests = "==2.24.0"
 six = "==1.15.0"

@@ -18,7 +18,7 @@
     "default": {
         "attrs": {
             "hashes": [],
-            "version": "==22.1.0"
+            "version": "==24.1.0"
         },
         "certifi": {
             "hashes": [
@@ -256,7 +256,7 @@
     "develop": {
         "attrs": {
             "hashes": [],
-            "version": "==22.1.0"
+            "version": "==24.1.0"
         },
         "coverage": {
             "hashes": [

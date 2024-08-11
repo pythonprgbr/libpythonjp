@@ -245,12 +245,8 @@
             "version": "==0.2.5"
         },
         "zipp": {
-            "hashes": [
-                "sha256:16522f69653f0d67be90e8baa4a46d66389145b734345d68a257da53df670903",
-                "sha256:c1532a8030c32fd52ff6a288d855fe7adef5823ba1d26a29a68fd6314aa72baa"
-            ],
-            "index": "pypi",
-            "version": "==3.3.1"
+            "hashes": [],
+            "version": "==3.20.0"
         }
     },
     "develop": {
@@ -419,12 +415,8 @@
             "version": "==0.10.1"
         },
         "zipp": {
-            "hashes": [
-                "sha256:16522f69653f0d67be90e8baa4a46d66389145b734345d68a257da53df670903",
-                "sha256:c1532a8030c32fd52ff6a288d855fe7adef5823ba1d26a29a68fd6314aa72baa"
-            ],
-            "index": "pypi",
-            "version": "==3.3.1"
+            "hashes": [],
+            "version": "==3.20.0"
         }
     }
 }
